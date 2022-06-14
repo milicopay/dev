@@ -1,0 +1,130 @@
+
+* {
+
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+
+}
+
+.header{
+
+	font-family: cursive;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border-bottom: solid;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	background-color: black;
+	color: white;
+	border-color: gray;
+
+}
+
+.main{
+
+	font-family: "Lucida Console", Courier, monospace;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+.main-section{
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+
+
+}
+
+.main-section-div{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	border: solid;
+	border-color: dimgray;
+	margin: 10px;
+	border-radius: 20px;
+
+
+}
+
+.main-section-div:hover{
+
+	border-color: black;
+
+}
+
+.main-section-div-paragrafo{
+
+	padding: 10px;
+
+}
+
+
+.main-section-div-paragrafo-pixlogo{
+
+	width: 25px;
+	height: auto;
+
+}
+
+
+.main-section-div-link{
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	border-color: white;
+	border: solid;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius: 15px;
+	text-transform: uppercase;
+	cursor: pointer;
+
+
+}
+
+.main-section-div-link:hover{
+
+	transition-duration: 1s;
+	text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
