@@ -88,12 +88,37 @@
 
 }
 
+@media (max-width: 460px){
+
+.textocobranca-cap{
+
+
+	width: 90%;
+
+}
+
+.textocobranca-cap-p{
+
+	font-size: 15px;
+
+}}
+
 .textocobranca-copiaecola{
 
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	gap: 10px;
+
+}
+
+@media (max-width: 460px){
+
+	.textocobranca-copiaecola{
+
+		flex-direction: column;
+
+	}
 
 }
 
@@ -135,6 +160,30 @@
 
 	width: 450px;
 	height: auto;
+
+}
+
+@media (max-width: 1138px){
+
+	.textocobranca-qrcode{
+
+
+		margin-top: -220px;
+
+	}
+
+
+}
+
+@media (max-width: 538px){
+
+	.textocobranca-qrcode{
+
+		width: 70%;
+
+	}
+
+
 
 }
 
